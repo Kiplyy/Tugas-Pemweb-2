@@ -1,0 +1,448 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(20, 10, 40, 0.85),
+            rgba(5, 5, 20, 0.9)
+        );
+
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.small-title {
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+    padding: 70px 0;
+}
+
+.dark-section {
+    background-color: #171717;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+/* =========================
+   GAME FLEXBOX
+========================= */
+
+.game-container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+/* =========================
+   GAME CARD
+========================= */
+
+.game-card {
+
+    background-color: white;
+
+    width: 350px;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s;
+}
+
+.game-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   GAME COVER
+========================= */
+
+.game-cover {
+
+    height: 230px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+}
+
+
+/* Game Cover Styles */
+
+.gta {
+    background: linear-gradient(
+        135deg,
+        #1a1a1a,
+        #555
+    );
+}
+
+.tekken {
+    background: linear-gradient(
+        135deg,
+        #151515,
+        #7d2020
+    );
+}
+
+.god {
+    background: linear-gradient(
+        135deg,
+        #252525,
+        #777
+    );
+}
+
+.re {
+    background: linear-gradient(
+        135deg,
+        #101010,
+        #49624b
+    );
+}
+
+.nfs {
+    background: linear-gradient(
+        135deg,
+        #111,
+        #a60000
+    );
+}
+
+.sotc {
+    background: linear-gradient(
+        135deg,
+        #202020,
+        #8b795d
+    );
+}
+
+
+/* =========================
+   GAME INFORMATION
+========================= */
+
+.game-info {
+    padding: 25px;
+}
+
+.game-info h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.game-info span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+}
+
+.game-info p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.page-header {
+
+    background-color: #171717;
+
+    color: white;
+
+    padding: 80px 0;
+
+    text-align: center;
+}
+
+.page-header h1 {
+
+    font-size: 55px;
+
+    font-weight: 900;
+
+    margin: 10px 0;
+}
+
+.page-header p {
+    color: #ccc;
+}
+
+
+/* =========================
+   GENRE FLEXBOX
+========================= */
+
+.genre-container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+/* =========================
+   GENRE CARD
+========================= */
+
+.genre-card {
+
+    background-color: white;
+
+    width: 350px;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.genre-card:hover {
+    transform: translateY(-7px);
+}
+
+.genre-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.genre-card h3 {
+    font-weight: bold;
+}
+
+.genre-card p {
+
+    color: #666;
+
+    line-height: 1.6;
+}
+
+.genre-card span {
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    background-color: #111;
+
+    color: #aaa;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        min-height: 500px;
+
+        text-align: center;
+    }
+
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+    .page-header h1 {
+        font-size: 40px;
+    }
+
+
+    /* Change Flexbox Direction */
+    .game-container,
+    .genre-container {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    .game-card,
+    .genre-card {
+
+        width: 100%;
+
+        max-width: 450px;
+    }
+
+
+    .game-cover {
+        height: 200px;
+    }
+
+}
+
+
+/* =========================
+   SMALL SCREEN
+========================= */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+
+    .hero {
+
+        padding: 40px 20px;
+    }
+
+
+    .section {
+
+        padding: 50px 15px;
+    }
+
+
+    .game-info {
+
+        padding: 20px;
+    }
+
+
+    .page-header {
+
+        padding: 60px 15px;
+    }
+
+}
